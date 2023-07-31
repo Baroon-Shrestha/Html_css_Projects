@@ -1,0 +1,204 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #270082;
+    color: whitesmoke;
+    padding: 13px 70px;
+}
+
+header b {
+    font-size: 24px;
+}
+
+.lists {
+    list-style: none;
+}
+
+.lists li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 18px;
+}
+
+.lists li a {
+    color: white;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.lists li a:hover {
+    color: grey;
+}
+
+.home {
+    position: relative;
+}
+
+img {
+    width: 1440px;
+    height: 1024px;
+}
+
+.name {
+    font-size: 72px;
+    position: absolute;
+    color: white;
+    padding: 414px 578px 506px 564px;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 22px;
+    position: absolute;
+    padding: 530px 455px 406px 430px;
+    color: white;
+}
+
+.more {
+    font-size: 18px;
+    position: absolute;
+    padding: 590px 299px 307px 300px;
+    color: white;
+    text-align: center;
+}
+
+.sec-page {
+    width: 1440px;
+    height: 806px;
+    background: #281154;
+}
+
+.sec-page i {
+    padding-right: 10px;
+}
+
+.sec-name {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    padding: 47.5px 640px 0px 650px;
+    display: flex;
+}
+
+.sec-desc {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 27.5px 574px 37px 574px;
+}
+
+.sec-more {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 0px 235px 17px 235px;
+}
+
+.box {
+    width: 183px;
+    height: 55px;
+    background: #DC0000;
+    font-size: 17px;
+    color: white;
+    text-transform: capitalize;
+    padding: 13px 12px;
+    margin: 17px 629px 29px 628px;
+}
+
+.extraa {
+    color: white;
+    font-size: 14px;
+    padding: 13px 406px 52.47px 450px;
+    text-align: center;
+}
+
+.pad img {
+    width: 800px;
+    height: 600px;
+    margin: 53px 332px 158px 296px;
+}
+
+.phone img {
+    width: 785px;
+    height: 555px;
+    position: absolute;
+    margin: 0px 225px 0px 650px;
+    margin-top: -640px;
+}
+
+.thi-name {
+    font-size: 24px;
+    text-align: center;
+}
+
+.thi-desc {
+    text-align: center;
+    margin: 41px 198px 50px 197px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.more-but {
+    width: 140px;
+    height: 50px;
+    background: #37008E;
+    color: white;
+    margin: 0px 640px 54px 660px;
+    font-size: 18px;
+    padding: 10px 24px 11px 23px;
+    font-weight: 300px;
+}
+
+.mac img {
+    width: 822px;
+    height: 502px;
+    margin: 0px 300px 84px 320px;
+}
+
+.sec-main-img>img {
+    width: 1440px;
+    height: 901px;
+}
+
+.for-name {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    margin: -652px 382px 0px 421px;
+}
+
+.for-desc {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin: -575px 327px 0px 315px;
+}
+
+.gift-card {
+    display: grid;
+    grid-template-columns: 500px 200px;
+    margin-top: 590px;
+    margin-left: 180px;
+}
+
+.gcards img {
+    width: 468px;
+    height: 310px;
+}
+
+.gcards-details {
+    background-color: #270082;
+}
