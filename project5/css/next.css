@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 85px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.lists {
+    list-style: none;
+}
+
+.lists li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.lists li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-img img {
+    width: 1061px;
+    height: 519px;
+}
+
+.main-img {
+    margin: 49px 172px 19px 197px;
+}
+
+.main-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--800, #2D3748);
+    padding: 19px 0 0 192px;
+}
+
+.desc {
+    display: flex;
+    padding: 19px 0 0 192px;
+}
+
+.writer {
+    width: 203px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--800, #2D3748);
+}
+
+.main-date {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+hr {
+    width: 1061px;
+    height: 1px;
+    margin: 30.5px 203px 37.5px 194px;
+}
+
+.container {
+    width: 1061px;
+    height: 910px;
+    margin: 37.5px 0 58px 195px;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.one-section {
+    color: var(--800, #2D3748);
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--800, #2D3748);
+}
+
+.sec-section {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--800, #2D3748);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #E8E8E8;
+}
+
+.scl-links {
+    padding-right: 93px;
+}
+
+.scl-links ul {
+    display: flex;
+}
+
+ul li {
+    padding: 33px;
+}
+
+.scl-links ul {
+    list-style: none;
+}
+
+.scl-links ul li i {
+    color: #454444;
+}
+
+.foot-text {
+    padding: 29px 0 0 93px;
+}
