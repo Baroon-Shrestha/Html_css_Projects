@@ -189,7 +189,7 @@ img {
 
 .gift-card {
     display: grid;
-    grid-template-columns: 500px 200px;
+    grid-template-columns: 500px 500px;
     margin-top: 590px;
     margin-left: 180px;
 }
@@ -200,5 +200,39 @@ img {
 }
 
 .gcards-details {
-    background-color: #270082;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.card-que {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+hr {
+    width: 554.019px;
+    height: 1px;
+}
+
+.card-box {
+    font-size: 18px;
+    font-weight: 300;
+    width: 113px;
+    height: 39px;
+    background-color: #37008E;
+    color: white;
+    padding: 6px 25px 4px 22px;
 }
